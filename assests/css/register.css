@@ -1,23 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
-
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    background-color: rgba(253, 179, 110, 0.164);
+    background-color: #f0e3ca;
     overflow-y: hidden;
 }
 
-.container{
+.container {
     display: grid;
     grid-template-columns: 80% 20%;
     grid-template-rows: 1fr;
 }
 
-.form{
+.form {
     width: 90%;
     padding: 15px;
     margin: 10px;
@@ -27,27 +26,28 @@ body{
     justify-content: center;
 }
 
-.cd-form{
+.cd-form {
     background-color: rgb(255, 255, 255);
     margin-top: 150px;
     margin: 20px;
     padding: 30px;
     border-radius: 20px;
 }
-.cd-form h1{
+
+.cd-form h1 {
     text-align: center;
     padding-top: 10px;
     color: #FF914D;
     font-family: 'Satisfy', cursive;
 }
 
-.cd-form .container{
+.cd-form .container {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 1fr;
-
 }
-.fieldset label{
+
+.fieldset label {
     color: rgb(0, 0, 0);
     margin-left: 20px;
 }
@@ -59,22 +59,21 @@ body{
     margin-right: 10px;
 }
 
-
-.fieldset .text{
+.fieldset .text {
     font-size: 20px;
     width: 80%;
     padding: 10px;
     border: none;
 }
 
-.fieldset .password{
+.fieldset .password {
     font-size: 20px;
     width: 50%;
     padding: 10px;
     border: none;
 }
 
-.fieldset .button{
+.fieldset .button {
     background-color: #FF914D;
     color: white;
     border: none;
@@ -83,42 +82,39 @@ body{
     padding: 10px;
     border-radius: 20px;
     width: 80%;
-    outline:none;
+    outline: none;
 }
 
-.fieldset .button:hover{
+.fieldset .button:hover {
     background-color: #EB600A;
     color: white;
 }
 
-option{
+option {
     font-size: 20px;
     width: 80%;
     padding: 10px;
-    border:orange;
+    border: orange;
 }
 
-.terms{
+.terms {
     height: 650px;
     overflow-x: hidden;
     overflow-y: scroll;
     margin-top: 50px;
 }
 
-.terms h4{
+.terms h4 {
     text-align: center;
 }
 
-
-
 @media (max-width: 800px) {
-    .container{
+    .container {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
     }
-
-    .form{
+    .form {
         width: 90%;
         padding: 15px;
         margin: 10px;
@@ -126,29 +122,24 @@ option{
         align-items: center;
         justify-content: center;
     }
-
-    .cd-form .container{
+    .cd-form .container {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
-    
     }
-
-    .fieldset .text{
+    .fieldset .text {
         font-size: 20px;
         width: 65%;
         padding: 10px;
         border: none;
     }
-    
-    .fieldset .password{
+    .fieldset .password {
         font-size: 20px;
         width: 35%;
         padding: 10px;
         border: none;
     }
-    
-    .fieldset .button{
+    .fieldset .button {
         background-color: #FF914D;
         color: white;
         border: none;
@@ -157,15 +148,13 @@ option{
         padding: 10px;
         border-radius: 20px;
         width: 60%;
-        outline:none;
+        outline: none;
     }
-    
-    .fieldset .button:hover{
+    .fieldset .button:hover {
         background-color: #EB600A;
         color: white;
     }
-
-    .terms{
+    .terms {
         height: 250px;
         overflow-x: hidden;
         overflow-y: scroll;
@@ -175,7 +164,7 @@ option{
 }
 
 @media (height: 1366px) {
-    .form{
+    .form {
         width: 90%;
         padding: 15px;
         margin: 10px;
@@ -184,12 +173,10 @@ option{
         justify-content: center;
         height: 1110px;
     }
-
-    .terms{
+    .terms {
         height: 750px;
         overflow-x: hidden;
         overflow-y: scroll;
         margin-top: 150px;
     }
-
 }

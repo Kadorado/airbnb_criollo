@@ -1,23 +1,28 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body,
-html{
+html {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     overflow-x: hidden;
+    background-color: #f0e3ca;
 }
 
+
 /* custom scroll bar */
+
 ::-webkit-scrollbar {
     width: 8px;
 }
+
 ::-webkit-scrollbar-track {
     background: #f1f1f1;
 }
+
 ::-webkit-scrollbar-thumb {
     background: #888;
     border-radius: 20px;
@@ -26,27 +31,25 @@ html{
 header {
     height: 100px;
     width: auto;
-    background-color: rgb(255, 255, 255);
+    background-color: #f0e3ca;
     border-radius: 0px 0px 25px 25px;
     box-shadow: 0px 4px 10px 3px rgb(0 0 0 / 13%);
-
     display: flex;
     justify-content: space-between;
     overflow-x: hidden;
 }
 
-#btn-menu{
+#btn-menu {
     display: none;
 }
 
 header label {
     font-size: 30px;
     cursor: pointer;
-
     display: none;
 }
 
-header img{
+header img {
     height: 80px;
     width: auto;
     display: block;
@@ -55,13 +58,13 @@ header img{
     border-radius: 50px;
 }
 
-.menu{
+.menu {
     margin-top: 20px;
     overflow-x: hidden;
 }
 
-.menu ul{
-    background-color: rgb(255, 255, 255);
+.menu ul {
+    background-color: #f0e3ca;
     display: flex;
     list-style: none;
     /* margin-right: 20px; */
@@ -74,12 +77,11 @@ header img{
     text-decoration: none;
 }
 
-
 .menu a:hover {
     background-color: rgba(255, 166, 0, 0.466);
 }
 
-.menu a i{
+.menu a i {
     margin-left: 20px;
     color: #EB600A;
 }
@@ -87,20 +89,16 @@ header img{
 .menu ul li:hover ul {
     display: block;
     position: absolute;
-    
     background-color: #ff914dce;
 }
 
-
 @media (max-width:910px) {
-
     /*Boton*/
     header label {
         display: block;
         margin-right: 40px;
         margin-top: 20px;
     }
-
     .menu {
         position: absolute;
         overflow-x: hidden;
@@ -110,29 +108,21 @@ header img{
         transform: translateX(-200%);
         transition: all.3s ease;
     }
-
     .menu ul {
         display: block;
         background: rgba(255, 255, 255, 0.644);
         /* border-radius: 0px 0px 30px 30px; */
     }
-
-
-    .menu ul li:hover ul{
+    .menu ul li:hover ul {
         display: none;
-    } 
-
-    
-    .menu a i{
+    }
+    .menu a i {
         position: absolute;
         margin-right: 20px;
         font-size: 20px;
         right: 30px;
-        
     }
-
-    #btn-menu:checked ~ .menu {
+    #btn-menu:checked~.menu {
         transform: translateX(0%);
     }
-    
 }

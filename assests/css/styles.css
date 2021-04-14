@@ -3,6 +3,7 @@ body {
     overflow-x: hidden;
     margin: 0;
     padding: 0;
+    background-color: #1b1a17;
 }
 
 
@@ -18,7 +19,7 @@ body {
     width: 50%;
     height: 30vh;
     box-shadow: -2px 9px 16px 0px rgb(0 0 0 / 27%);
-    background-color: #ff914dab;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -147,7 +148,6 @@ body {
     transition: all 0.25s;
     font-family: 'Arial, Helvetica, sans-serif';
     color: rgb(2, 2, 2);
-    background-color: hsla(0, 0%, 100%, 0.486);
     font-size: 15px;
     padding-top: auto;
 }
@@ -158,18 +158,18 @@ body {
     font-size: 40px;
 }
 
-.ourcontec .order{
+.ourcontec .order {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
 }
 
-.ourcontec .info p{
+.ourcontec .info p {
     margin: 20px 40px;
     padding: 20px;
 }
 
-.ourcontec .picture{
+.ourcontec .picture {
     margin: 20px 40px;
     padding: 20px;
     border-radius: 20px;
@@ -180,7 +180,7 @@ body {
 }
 
 @media (max-width: 800px) {
-    .ourcontec .order{
+    .ourcontec .order {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
