@@ -61,37 +61,37 @@
                     </p>
 
                     <p class="fieldset">
-                        <label class="update-box " for="description"><i class="fas fa-image"></i>Imagenes Principals</label>
+                        <label class="update-box " for="description"><i class="fas fa-image"></i>Imagen Principal</label>
                     </p>
                     <p class="div-fill">
                         <label class="update-box" for="description">Agregar img</label>
                         </Br>
                         </Br>
-                        <input  type="file"  name="main-picture" id="main-picture"  required>
+                        <input  type="file"  name="main-picture" id="main-picture"  required accept="image/png, image/jpg , image/jpeg">
                     </p>
 
                     </Br>
                     </Br>
                     <!---->
                     <p class="fieldset">
-                        <label class="update-box " for="description"><i class="fas fa-image"></i>Imagenes de apoyo 1</label>
+                        <label class="update-box " for="description"><i class="fas fa-image"></i>Imagen de apoyo 1</label>
                     </p>
                     <p class="div-fill">
                         <label class="update-box" for="description">Agregar img</label>
                         </Br>
                         </Br>
-                        <input  type="file"  name="additional-images" id="additional-images" required>
+                        <input  type="file"  name="additional-images" id="additional-images" required accept="image/png, image/jpg , image/jpeg">
                     </p>
                     </Br>
                     </Br>
                     <p class="fieldset">
-                        <label class="update-box " for="description"><i class="fas fa-image"></i>Imagenes de apoyo 2</label>
+                        <label class="update-box " for="description"><i class="fas fa-image"></i>Imagen de apoyo 2</label>
                     </p>
                     <p class="div-fill">
                         <label class="update-box" for="description">Agregar img</label>
                         </Br>
                         </Br>
-                        <input  type="file"  name="additional-images-2" id="additional-images-2" required>
+                        <input  type="file"  name="additional-images-2" id="additional-images-2" required accept="image/png, image/jpg , image/jpeg">
                     </p>
                     <!---->
                     <p class="fieldset">

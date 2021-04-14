@@ -167,7 +167,7 @@ function loadImages($nameform, $main, $lastid_house){
    $url = $nombre."-".$imagen;
    $storage_img=$_SERVER['DOCUMENT_ROOT'];
 
-      if ( $type=='image/png'||$type=='image/jpeg'||$type=='image/jpg'||$type=='image/gif') {
+      if ( $type=='image/png'||$type=='image/jpeg'||$type=='image/jpg') {
          $temp  = $_FILES[$nameform]['tmp_name'];
          $Imagen = new Imagenes();
          $Imagen->setImagen($url, $main , $lastid_house);

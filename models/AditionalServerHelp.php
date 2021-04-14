@@ -44,7 +44,7 @@ class AditionalServerHelp{
     }
 
     // public function setSessionService($idhouse){
-    //     $_SESSION['houseServices'] =$this->getHouseServices($id_house);
+    //     $_SESSION['houseServices'] =$this->getHouseServices($idhouse);
     // }
 
 

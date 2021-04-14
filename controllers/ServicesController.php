@@ -19,6 +19,7 @@ if (isset($_POST["operationHouse"])){
          $servicesObj = new AditionalServerHelp();
          $uservices = $servicesObj->getHouseServices($id_house);
 
+
          echo json_encode($uservices);
          break;
 
@@ -49,7 +50,13 @@ if (isset($_POST["operationHouse"])){
                }
             }
 
-            echo json_encode($servicesObje->getHouseServices($id_house));
+
+            $resultservis = $servicesObje->getHouseServices($id_house);
+
+            session_start();
+            $_SESSION['houseServices'] = $resultservis;
+
+            echo json_encode($resultservis);
             break;
 
          default:

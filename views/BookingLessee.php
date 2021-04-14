@@ -106,19 +106,29 @@
                                     <li class='list-group-item'><i class='fas fa-dollar-sign'></i> total : $total </li>
                                   </ul>
 
-                             <!-- Buttons Crud -->
+                            ";
+                if($payment!= null){
+                    //boton que indique que ya se pago
+                    echo " <!-- Buttons Crud -->
+                    <div class='buttons'>
+                    <a href=''>
+                         <button class='btn-danger' disabled>
+                            reserva pagada
+                     </button>
+                         </a>
+                        </br>
+                        </div>";
+                }
+                else{
+                    echo  " <!-- Buttons Crud -->
                              <div class='buttons'>
                              <a href='../controllers/BookingController.php?action=delete&idB=$idB''>
                                   <button class='btn-danger'>
                                      Eliminar reserva
                               </button>
                                   </a>
-                                 </br>";
-                if($payment!= null){
-                    //boton que indique que ya se pago
-                    echo "pagado";
-                }
-                else{
+                                 </br>
+                                 </div>"; 
                     echo "<form action='../controllers/BookingController.php?action=payment&idB=$idB&total=$total' method='POST'>
                     <script
                       src='https://www.mercadopago.com.co/integrations/v1/web-tokenize-checkout.js'
@@ -128,7 +138,7 @@
                   </form>";
                 }
 
-              echo "</div>
+              echo "
             </div>";
             }
             };
