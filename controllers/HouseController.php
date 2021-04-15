@@ -179,7 +179,7 @@ function loadImages($nameform, $main, $lastid_house){
          echo "formato no permitido";
       }
 }
-
+   
 
 
 
