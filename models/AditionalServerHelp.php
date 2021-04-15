@@ -36,7 +36,7 @@ class AditionalServerHelp{
 
     public function getHouseServices($idHouse){
         $con = Conexion::connect();
-        $stmt = $con->prepare("SELECT idadditional_services FROM hotel.additional_services_help
+        $stmt = $con->prepare("SELECT idadditional_services FROM additional_services_help
         where houses_idhouses = '$idHouse'");
         $stmt->execute();
         $arr = $stmt->fetchAll(PDO::FETCH_COLUMN, 0);
