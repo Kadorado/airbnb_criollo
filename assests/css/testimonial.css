@@ -1,73 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
-
-*{
+* {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.testimonials{
+.testimonials {
     padding: 40px 0;
-    background-color: #ff914d44;
+    background-color: #f0e3ca;
     height: auto;
     color: rgb(0, 0, 0);
     text-align: center;
 }
 
-.inner{
+.inner {
     max-width: 1200px;
     margin: auto;
     overflow: hidden;
     padding: 0 20px;
 }
 
-.inner h3{
+.inner h3 {
     font-family: 'Satisfy', cursive;
-    color: #FF914D;
-    font-size: 25px;
+    color: #a35709;
+    font-size: 40px;
 }
 
-.border{
+.border {
     width: 160px;
     height: 5px;
-    background-color: orange;
+    background-color: #a35709;
     margin: 26px auto;
     border-radius: 20px;
 }
 
-.row{
+.row {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
 }
 
-.testimonial{
+.testimonial {
     background-color: white;
     padding: 30px;
     margin: 10px;
     border-radius: 20px;
 }
 
-.testimonial img{
+.testimonial img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
 }
 
-.name{
+.name {
     font-size: 15px;
     text-transform: uppercase;
     margin: 20px 0;
 }
 
-.stars{
+.stars {
     color: #EB600A;
     margin-bottom: 20px;
 }
 
 @media (max-width: 800px) {
-    .row{
+    .row {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;

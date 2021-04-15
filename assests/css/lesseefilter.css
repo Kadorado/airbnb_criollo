@@ -7,6 +7,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     overflow-x: hidden;
+    background-color: #f0e3ca;
 }
 
 form {
@@ -31,7 +32,7 @@ form {
 
 .fieldset .fas {
     font-size: 25px;
-    color: #FF914D;
+    color: #a35709;
     margin-left: 20px;
     margin-right: 10px;
 }
@@ -44,7 +45,8 @@ form {
 }
 
 .fieldset .button {
-    background-color: #FF914D;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
     color: white;
     border: none;
     text-align: center;
@@ -62,7 +64,7 @@ form {
 }
 
 .galery {
-    background-color: #e07e418f;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
 }
 
 .galery h1 {
@@ -82,7 +84,8 @@ form {
 
 
 /* --------------- */
-.container{
+
+.container {
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
@@ -92,7 +95,7 @@ form {
     height: calc(100% - 200px);
 }
 
-.container .container-not{
+.container .container-not {
     height: calc(77vh - 200px);
     text-align: center;
     display: flex;
@@ -103,9 +106,9 @@ form {
     align-content: stretch;
 }
 
-.container .container-not h1{
+.container .container-not h1 {
     font-family: 'Satisfy', cursive;
-    color: #FF914D;
+    color: #a35709;
     font-weight: 600;
     font-size: 40px;
     text-align: center;
@@ -124,17 +127,16 @@ form {
     font-size: 15px;
 }
 
-.card .card-img-top{
+.card .card-img-top {
     width: 100%;
     height: 300px;
     object-fit: cover;
 }
 
-
 .card h3 {
     font-size: 40px;
     text-align: center;
-    color: #FF914D;
+    color: #a35709;
     font-family: 'Satisfy', cursive;
     padding-top: 10px;
 }
@@ -147,8 +149,7 @@ form {
     height: auto;
 }
 
-
-.card .list-group{
+.card .list-group {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
@@ -159,7 +160,7 @@ form {
     justify-content: center;
 }
 
-.card .booking{
+.card .booking {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
@@ -170,21 +171,21 @@ form {
     justify-content: center;
 }
 
-.card .booking h4{ 
+.card .booking h4 {
     text-align: center;
-    color: #FF914D;
+    color: #a35709;
 }
 
-.card .booking .booking-item{
+.card .booking .booking-item {
     display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: space-around;
-	align-items: center;
-	align-content: stretch;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
 }
 
-.card .list-group-two{
+.card .list-group-two {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -201,71 +202,73 @@ form {
     align-items: center;
     align-content: stretch;
 }
+
+
 /* ICONS */
 
 .fa-bed {
-    color: #FF914D;
+    color: #a35709;
     margin-left: 20px;
     margin-right: 10px;
 }
 
 .fa-bath {
-    color: #FF914D;
+    color: #a35709;
     margin-left: 20px;
     margin-right: 10px;
 }
 
 .fa-parking {
-    color: #FF914D;
+    color: #a35709;
     margin-left: 20px;
     margin-right: 10px;
 }
 
 .fa-wifi {
-    color: #FF914D;
+    color: #a35709;
     margin-left: 20px;
     margin-right: 10px;
 }
 
 .fa-dollar-sign {
-    color: #FF914D;
+    color: #a35709;
     margin-left: 20px;
     margin-right: 10px;
 }
 
-.fa-map-marker{
-    color: #FF914D;
+.fa-map-marker {
+    color: #a35709;
     margin-left: 20px;
     margin-right: 10px;
 }
 
-.fa-directions{
-    color: #FF914D;
+.fa-directions {
+    color: #a35709;
     margin-left: 20px;
     margin-right: 10px;
 }
 
-.card .buttons{
+.card .buttons {
     display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	align-content: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
 }
 
 .btn-primary {
-    background-color: #FF914D;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
     color: white;
     border: none;
     margin: 8px auto;
     padding: 5px;
     border-radius: 20px;
     width: 120px;
-    outline:none;
+    outline: none;
 }
 
-.btn-primary i{
+.btn-primary i {
     padding: 5px;
     margin: 0px 5px;
 }
@@ -276,7 +279,7 @@ form {
 }
 
 .btn-danger {
-    background-color: #FF914D;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
     color: white;
     border: none;
     margin: 8px auto;
@@ -284,10 +287,10 @@ form {
     border-radius: 20px;
     width: 120px;
     height: 40px;
-    outline:none;
+    outline: none;
 }
 
-.btn-danger i{
+.btn-danger i {
     padding: 5px;
     margin: 0px 5px;
 }
@@ -296,6 +299,7 @@ form {
     background-color: #eb2c0a;
     color: white;
 }
+
 
 /*Responsive*/
 
@@ -325,7 +329,7 @@ form {
     }
     .fieldset .fas {
         font-size: 25px;
-        color: #FF914D;
+        color: #a35709;
         margin-left: 20px;
         margin-right: 10px;
     }
@@ -353,7 +357,7 @@ form {
         outline: none;
     }
     .galery {
-        background-color: #ff914d60;
+        background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
     }
     .galery h1 {
         font-family: 'Satisfy', cursive;
@@ -365,9 +369,8 @@ form {
     }
 }
 
-
 @media (max-width: 1005px) {
-    .container{
+    .container {
         display: flex;
         flex-wrap: wrap;
         align-content: space-between;
@@ -379,7 +382,7 @@ form {
 }
 
 @media (max-width: 800px) {
-    .container{
+    .container {
         display: flex;
         flex-wrap: wrap;
         align-content: space-between;
@@ -391,7 +394,7 @@ form {
 }
 
 @media (width: 768px) {
-    .container{
+    .container {
         display: flex;
         flex-wrap: wrap;
         align-content: space-between;
@@ -403,7 +406,7 @@ form {
 }
 
 @media (width: 1024px) {
-    .container{
+    .container {
         display: flex;
         flex-wrap: wrap;
         align-content: space-between;
@@ -412,8 +415,7 @@ form {
         justify-content: center;
         height: calc(100% - 200px);
     }
-
-    .card .list-group{
+    .card .list-group {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
@@ -423,11 +425,10 @@ form {
         align-items: center;
         justify-content: center;
     }
-    .list-group-item{
+    .list-group-item {
         margin: 10px 0px;
         font-size: 25px;
     }
-
     .btn-primary {
         background-color: #FF914D;
         color: white;
@@ -437,19 +438,16 @@ form {
         border-radius: 30px;
         width: 200px;
         font-size: 20px;
-        outline:none;
+        outline: none;
     }
-    
-    .btn-primary i{
+    .btn-primary i {
         padding: 5px;
         margin: 0px 5px;
     }
-    
     .btn-primary:hover {
         background-color: #8db469;
         color: white;
     }
-
     .btn-danger {
         background-color: #FF914D;
         color: white;
@@ -459,21 +457,19 @@ form {
         border-radius: 30px;
         width: 200px;
         font-size: 20px;
-        outline:none;
+        outline: none;
     }
-    
-    .btn-danger i{
+    .btn-danger i {
         padding: 5px;
         margin: 0px 5px;
     }
-    
     .btn-danger:hover {
         background-color: #eb2c0a;
         color: white;
     }
 }
 
-@media (max-width: 1400px){
+@media (max-width: 1400px) {
     .card {
         width: 40%;
         height: auto;
@@ -488,7 +484,7 @@ form {
     }
 }
 
-@media (max-width: 700px){
+@media (max-width: 700px) {
     .card {
         width: 90%;
         height: auto;
