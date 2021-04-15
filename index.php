@@ -37,7 +37,7 @@
         <!-- CARDS TUR -->
         <div class="contedor-tarjetas">
 
-            <div class="card">
+           <!-- <div class="card">
                 <img src="assests/img/parquedelcafe.jpeg">
                 <h1>Parque del Café </h1>
                 <P>El Parque del Café es un parque temático colombiano situado en el corregimiento de Pueblo Tapao, del municipio de Montenegro en Quindío, Colombia. Dispone de 40 atracciones que se dividen en: mecánicas, acuáticas y temáticas. </P>
@@ -45,7 +45,7 @@
                     <i class="fa fa-map-marker"></i>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3977.297958972495!2d-75.7728367856766!3d4.540285244292901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e385ef825fa221d%3A0xd35336082b9ca116!2sParque%20del%20Caf%C3%A9!5e0!3m2!1ses-419!2sco!4v1616711556667!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </span>
-            </div>
+            </div>-->
 
 
             <div class="card">

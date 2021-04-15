@@ -47,7 +47,7 @@ body {
     padding-bottom: 30px;
     font-size: 40px;
     text-align: center;
-    color: #FF914D;
+    color: #a35709;
     font-family: 'Satisfy', cursive;
     text-shadow: 0.1em 0.1em 5px rgb(0 0 0 / 70%);
 }
@@ -57,7 +57,7 @@ body {
     padding: 20px;
     font-weight: 600;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: #a35709);
     line-height: 30px;
     /*hace que las palabras se separen creo*/
 }
@@ -103,7 +103,7 @@ body {
 .information h1 {
     margin: 50px;
     text-align: center;
-    color: #FF914D;
+    color: #a35709;
     /* font-family: 'Satisfy', cursive; */
 }
 
@@ -131,7 +131,7 @@ body {
     margin: 50px;
     font-weight: 800;
     text-align: center;
-    color: #FF914D;
+    color: #a35709;
     /* font-family: 'Satisfy', cursive; */
 }
 

@@ -32,7 +32,7 @@ form {
 
 .fieldset .fas {
     font-size: 25px;
-    color: #FF914D;
+    color: #a35709;
     margin-left: 20px;
     margin-right: 10px;
 }
@@ -45,7 +45,8 @@ form {
 }
 
 .fieldset .button {
-    background-color: #FF914D;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
     color: white;
     border: none;
     text-align: center;
@@ -63,7 +64,7 @@ form {
 }
 
 .galery {
-    background-color: #e07e418f;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
 }
 
 .galery h1 {
@@ -107,7 +108,7 @@ form {
 
 .container .container-not h1 {
     font-family: 'Satisfy', cursive;
-    color: #FF914D;
+    color: #a35709;
     font-weight: 600;
     font-size: 40px;
     text-align: center;
@@ -135,7 +136,7 @@ form {
 .card h3 {
     font-size: 40px;
     text-align: center;
-    color: #FF914D;
+    color: #a35709;
     font-family: 'Satisfy', cursive;
     padding-top: 10px;
 }
@@ -206,43 +207,43 @@ form {
 /* ICONS */
 
 .fa-bed {
-    color: #FF914D;
+    color: #a35709;
     margin-left: 20px;
     margin-right: 10px;
 }
 
 .fa-bath {
-    color: #FF914D;
+    color: #a35709;
     margin-left: 20px;
     margin-right: 10px;
 }
 
 .fa-parking {
-    color: #FF914D;
+    color: #a35709;
     margin-left: 20px;
     margin-right: 10px;
 }
 
 .fa-wifi {
-    color: #FF914D;
+    color: #a35709;
     margin-left: 20px;
     margin-right: 10px;
 }
 
 .fa-dollar-sign {
-    color: #FF914D;
+    color: #a35709;
     margin-left: 20px;
     margin-right: 10px;
 }
 
 .fa-map-marker {
-    color: #FF914D;
+    color: #a35709;
     margin-left: 20px;
     margin-right: 10px;
 }
 
 .fa-directions {
-    color: #FF914D;
+    color: #a35709;
     margin-left: 20px;
     margin-right: 10px;
 }
@@ -257,7 +258,7 @@ form {
 }
 
 .btn-primary {
-    background-color: #FF914D;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
     color: white;
     border: none;
     margin: 8px auto;
@@ -278,7 +279,7 @@ form {
 }
 
 .btn-danger {
-    background-color: #FF914D;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
     color: white;
     border: none;
     margin: 8px auto;
@@ -328,7 +329,7 @@ form {
     }
     .fieldset .fas {
         font-size: 25px;
-        color: #FF914D;
+        color: #a35709;
         margin-left: 20px;
         margin-right: 10px;
     }
@@ -356,7 +357,7 @@ form {
         outline: none;
     }
     .galery {
-        background-color: #ff914d60;
+        background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
     }
     .galery h1 {
         font-family: 'Satisfy', cursive;

@@ -81,7 +81,7 @@ body {
 .container-one .info h1 {
     text-align: center;
     margin: 10px;
-    color: #FF914D;
+    color: #a35709;
     font-family: 'Satisfy', cursive;
 }
 
@@ -109,13 +109,13 @@ body {
 }
 
 .container-one .info .data .items h2 {
-    color: #FF914D;
+    color: #a35709;
 }
 
 .container-one .info .data-two h2 {
     text-align: center;
     margin: 10px;
-    color: #FF914D;
+    color: #a35709;
 }
 
 .container-one .info .data-two .items {
@@ -146,7 +146,7 @@ body {
 }
 
 .info .direction h3 {
-    color: #FF914D;
+    color: #a35709;
 }
 
 .info .price {
@@ -159,13 +159,14 @@ body {
 }
 
 .info .price h3 {
-    color: #FF914D;
+    color: #a35709;
 }
 
 .info .price button {
-    background-color: #FF914D;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
     color: white;
     border-radius: 20px;
+    box-shadow: 0px 4px 10px 3px rgb(0 0 0 / 13%);
     border: none;
     padding: 10px;
     margin: 10px;
@@ -182,7 +183,7 @@ body {
 .container .two h2 {
     text-align: center;
     margin: 10px;
-    color: #FF914D;
+    color: #a35709;
     font-family: 'Satisfy', cursive;
 }
 

@@ -37,7 +37,7 @@ body {
 .cd-form h1 {
     text-align: center;
     padding-top: 10px;
-    color: #FF914D;
+    color: #a35709;
     font-family: 'Satisfy', cursive;
 }
 
@@ -54,7 +54,7 @@ body {
 
 .fieldset .fas {
     font-size: 25px;
-    color: #FF914D;
+    color: #a35709;
     margin-left: 20px;
     margin-right: 10px;
 }
@@ -74,7 +74,7 @@ body {
 }
 
 .fieldset .button {
-    background-color: #FF914D;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
     color: white;
     border: none;
     text-align: center;
